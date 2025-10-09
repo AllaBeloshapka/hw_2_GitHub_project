@@ -21,7 +21,7 @@ li {
 }
 
 #root {
-  min-height: 100%;
+  min-height: 250%;
   display: flex;
   flex-direction: column;
 }
@@ -35,22 +35,22 @@ li {
   background-repeat: no-repeat;
   position: fixed;
   display: flex;
-  /* justify-content: space-around; */
   align-items: center;
   gap: 50px;
+  z-index: 1000;
 }
 .logo{
   width: 100px;
   margin-left: 250px;
 }
 
-.back-button {
+/* .back-button {
     position: absolute;
     bottom: -60px;
     right: 20px;
     padding: 10px 20px;
     color: white;
-}
+} */
 
 .header-content {
     display: flex;
@@ -66,6 +66,7 @@ li {
     font-size: 50px;
     text-align: center;
     margin: 0;
+
 }
 
 main {
@@ -80,6 +81,7 @@ main {
   justify-content: center;
   padding: 50px;
   font-size: 25px;
+  
 }
 
 .box {
@@ -87,15 +89,55 @@ main {
   flex-direction: column;
   border-radius: 10px;
   gap: 40px;
-  width: 80%;
+  width: 500px;
   min-height: 200px;
   height: fit-content;
   border: 1px solid black;
   border-radius: 24px;
   padding: 40px;
   background-color: rgb(199, 198, 198);
-  font-size: 20px;
+  
 }
+ #box-1{
+  position: absolute;
+  top: 150px;
+  left: 50px;
+ }
+ #box-2{
+  position: absolute;
+  top: 350px;
+  right: 50px;
+ }
+ #box-3{
+  position: absolute;
+  top: 600px;
+  left: 150px;
+ }
+ #box-4{
+  position: absolute;
+  top: 750px;
+  right: 20px;
+ }
+ #box-5{
+  position: absolute;
+  top: 1100px;
+  left: 50%;
+ }
+ #box-6{
+  position: absolute;
+  top: 1000px;
+  left: 30px;
+ }
+ #box-7{
+  position: absolute;
+  top: 1350px;
+  left: 100px;
+ }
+  #box-8{
+  position: absolute;
+  top: 1400px;
+  left: 50%;
+ }
 
 .mission-title{
   color: rgb(183, 0, 255);
