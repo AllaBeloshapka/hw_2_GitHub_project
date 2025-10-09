@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 200px;
+  background-image: url(./assets/воронка.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logotip {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.logotip h1 {
+  font-size: 40px;
+  padding-top: 60px;
+}
+
+.logo {
+  width: 200x;
+  height: 200px;
+}
+
+.nav {
+  /* margin-top: 200px; */
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  align-items: self-end;
+  background: none;
+  justify-content: space-around;
+  
+}
+
+.nav a {
+  color: rgb(123, 3, 179);
+  font-size: 25px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: bold;
+  color: white;
+}
+
+main {
+  background-color: rgb(4, 4, 62);
+  margin-top: 200px;
+  display: flex;
+  flex: 1;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  font-size: 25px;
+  margin-top: 200px;
+}
+
+.point_box {
+display: flex;
+  flex-direction: column;
+  /* border-radius: 10px; */
+  gap: 40px;
+  width: 40%;
+  min-height: 200px;
+  height: fit-content;
+  border: 1px solid black;
+  border-radius: 24px;
+  padding: 40px;
+  background-color: rgb(199, 198, 198);
+}
+
+#box2 {
+  margin-left: 60%;
+}
+
+.main {
+  background-color: rgb(4, 4, 62);
+  margin-top: 200px;
+  display: flex;
+  flex: 1;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  font-size: 25px;
+}
+
+.image {
+  order: 2;
+
+}
+.words {
+  order: 1;
+}
+
+footer {
+ 
+  background-image: url(./assets/воронка.gif);
+  border-top: 2px solid white;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
