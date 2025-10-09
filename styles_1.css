@@ -133,6 +133,11 @@ main {
   top: 1350px;
   left: 100px;
  }
+  #box-8{
+  position: absolute;
+  top: 1400px;
+  left: 50%;
+ }
 
 .mission-title{
   color: rgb(183, 0, 255);
