@@ -39,46 +39,27 @@ li {
   align-items: center;
 }
 
-.logotip {
-  display: flex;
-  align-items: center;
-  gap: 100px;
+.back-button {
+    position: absolute;
+    bottom: -60px;
+    right: 20px;
+    padding: 10px 20px;
+    color: white;
 }
 
-.logotip h1 {
-  font-size: 40px;
-  padding-top: 60px;
+.header-content {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
-.logo {
-  width: 200x;
-  height: 200px;
-}
-
-.nav {
-  /* margin-top: 200px; */
-  display: flex;
-  gap: 100px;
-  justify-content: space-between;
-  align-items: self-end;
-  background: none;
-  justify-content: space-around;
-  
-}
-
-.nav a {
-  color: rgb(123, 3, 179);
-  font-size: 25px;
-}
-
-.nav a:hover {
-  text-decoration: underline;
-}
-
-h1 {
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
+.history-title {
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
 }
 
 main {
@@ -92,9 +73,17 @@ main {
   justify-content: center;
   padding: 50px;
   font-size: 25px;
-  margin-top: 200px;
 }
 
+footer {
+  /* background-color: rgb(11, 1, 35); */
+  background-image: url(./assets/воронка.gif);
+  border-top: 2px solid white;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
 .box {
   display: flex;
   flex-direction: column;
@@ -107,14 +96,4 @@ main {
   border-radius: 24px;
   padding: 40px;
   background-color: rgb(199, 198, 198);
-}
-
-footer {
-  /* background-color: rgb(11, 1, 35); */
-  background-image: url(./assets/воронка.gif);
-  border-top: 2px solid white;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-size: 30px;
 }
